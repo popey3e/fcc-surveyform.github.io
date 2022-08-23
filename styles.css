@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+  font-family: 'DynaPuff', cursive;
+  text-align: center;
+  color: #292723;
+  text-shadow: 2px 2px 7px #fff;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXR_03qud5f5XFqxuKAXaLacJZ1CPxioQPw&usqp=CAU);
+}
+
+.container {
+  text-align: left;
+  max-width: 400px;
+  margin: 2em auto;
+  border: 1px black solid;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0,0,0);
+  background-color: rgba(255,255,255,0.65);
+}
+
+.form-group{
+  padding: 1%;
+}
+
+label, input, select{
+  display: block;
+  margin-bottom: 2%;
+  width: 100%;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  width: unset;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+textarea {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  margin: 5% auto 0 auto;
+  font-family: 'DynaPuff', cursive;
+  min-height: 3em;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.65);
+  transition: .3s;
+}
+
+button:hover {
+  background-color: rgba(161, 128, 98,.5);
+  font-weight: bolder;
+  cursor: pointer;
+  width: 99.8%;
+}
